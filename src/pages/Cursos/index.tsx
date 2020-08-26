@@ -2,8 +2,11 @@ import React from 'react';
 
 import { FaLaptopMedical } from 'react-icons/fa';
 
-import { UlVideos } from './styles';
+// import { UlVideos } from '../../components/VideoComponent/styles';
+// import VideoComponent from '../../components/VideoComponent';
+
 import Header from '../../components/Header';
+import { UlImg } from './styles';
 
 const Cursos: React.FC = () => (
   <>
@@ -27,224 +30,59 @@ const Cursos: React.FC = () => (
       </div>
       <FaLaptopMedical size={60} />
     </div>
-    <UlVideos>
+
+    <UlImg>
       <li>
-        <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="video"
+        <img
+          src="https://www.paodospobres.org.br/site/wp-content/uploads/2018/09/cursos-devmedia-facebook.jpg"
+          alt=""
         />
         <div>
           <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+          <h5
+            style={{
+              display: 'inline-block',
+              padding: '4px 20px',
+              backgroundColor: 'lightgreen',
+              borderRadius: '8px',
+            }}
+          >
+            Online
+          </h5>
+          <h3>
+            Mssum Ipsum, cacilds vidis litro abertis. Admodum accumsan
             disputationi eu sit. Vide electram sadipscing et per. Mé faiz
             elementum girarzis, nisi eros vermeio.
-          </span>
+          </h3>
         </div>
       </li>
       <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/KM-BNaMvegA"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+        <img
+          src="https://www.paodospobres.org.br/site/wp-content/uploads/2018/09/cursos-devmedia-facebook.jpg"
+          alt=""
         />
         <div>
           <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+          {/* w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center} */}
+          <h5
+            style={{
+              display: 'inline-block',
+              padding: '4px 20px',
+              backgroundColor: 'lightcoral',
+              borderRadius: '8px',
+            }}
+          >
+            Presencial
+          </h5>
+
+          <h3>
+            Mssum Ipsum, cacilds vidis litro abertis. Admodum accumsan
             disputationi eu sit. Vide electram sadipscing et per. Mé faiz
             elementum girarzis, nisi eros vermeio.
-          </span>
+          </h3>
         </div>
       </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/U39FdL5ZchI"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/gYaw8IB12H0"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="video"
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/KM-BNaMvegA"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/U39FdL5ZchI"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/gYaw8IB12H0"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="video"
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/KM-BNaMvegA"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/U39FdL5ZchI"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-      <li>
-        <iframe
-          title="video"
-          src="https://www.youtube.com/embed/gYaw8IB12H0"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <div>
-          <h1>Titulo</h1>
-          <h5>Descrição do video</h5>
-          <span>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Mé faiz
-            elementum girarzis, nisi eros vermeio.
-          </span>
-        </div>
-      </li>
-    </UlVideos>
+    </UlImg>
   </>
 );
 
